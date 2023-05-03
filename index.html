@@ -4,226 +4,154 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<title>Готель Shine Del Sol</title>
-	
-	<meta name="description" content="Сайт готелю Shine Del Sol">
-	<meta name="keywords" content="Готель, Забронювати номер, Львів">
-	<meta name="author" content="Andrey Lapaev, Volodymyr Potsiluyko">
-	
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-	
+    <title>Готель Shine Del Sol</title>
+    <meta name="description" content="Сайт готелю Shine Del Sol">
+    <meta name="keywords" content="Готель, Забронювати номер, Львів">
+    <meta name="author" content="Andrey Lapaev, Volodymyr Potsiluyko">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
-	<link rel="stylesheet" type="text/css" href="my_style.css">
-
-<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sticky-footer/">
-
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" type="text/css" href="my_style.css">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sticky-footer/">
   </head>
   <body class="h-100">
-  
-    
-	
-	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#">Shine Del Sol</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Shine Del Sol</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Головна <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="suites.html">Номери</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="contact.html">Контакти</a>
+          </li>
+        </ul>
+      </div>
+      <a class="" style="color:white; text-decoration: underline;" href="#">Switch to English</a>
+    </nav>
+    <div class="container-fluid h-100">
+      <div class="row w-100" style="height:80%; margin-top:55px;">
+        <img class="w-100" alt="Hotel photo" src="1-lg.jpg" style="object-fit:cover; height: 80%; z-index:2; position:absolute; top:55px;">
+        <div class="w-100 d-flex flex-column justify-content-between" style=" height: 80%; z-index:3; position:absolute; top:55px;">
+          <div class="d-flex flex-row justify-content-between pl-5 pr-5 pb-5 pt-5" style="color:white; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);">
+            <div class="d-flex flex-column">
+              <p class="subtitle">Готель</p>
+              <h1>Shine Del Sol</h1>
+            </div>
+            <div onclick="openVideo()" class="play-button d-flex justify-content-center align-items-center">
+              <span class="material-symbols-outlined play-icon">play_arrow</span>
+            </div>
+          </div>
+          <h4 class="pl-5 pr-5 pb-5 pt-5 mb-0" style="color:white; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);">Насолоджуйтеся світлом, що пробивається крізь хмари</h4>
+        </div>
+      </div>
+      <div onclick="showMore()" class="d-flex justify-content-center align-items-center" style="height: calc(20% - 55px); cursor: grab;">
+        <p style="margin:0px;">Дізнатися більше</p>
+        <span class="material-symbols-outlined">expand_more</span>
+      </div>
+      <hr>
+      <div id="reviews" class="d-flex flex-column w-100 justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center ml-5 mr-5 mt-5 mb-5">
+          <p class="subtitle">Відгуки про нас</p>
+          <h1>Що кажуть наші клієнти</h1>
+        </div>
+        <div class="d-flex justify-content-center align-items-center pb-5">
+          <div class="d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column justify-content-center" style="max-width:300px;">
+              <p class="text-center">«Від ввічливого персоналу до комфортних номерів, готель надає все необхідне для приємного відпочинку»</p>
+              <div class="d-flex justify-content-center">
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center ml-4 mr-4" style="max-width:300px;">
+              <p class="text-center">«Shine Del Sol – прекрасне місце для відпочинку, яке вражає своєю атмосферою та різноманітністю послуг»</p>
+              <div class="d-flex justify-content-center">
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center" style="max-width:300px;">
+              <p class="text-center">«Чудовий сервіс, комфортні номери та чистота відразу перенесуть вас у світ відпочинку та задоволення»</p>
+              <div class="d-flex justify-content-center">
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+                <span class="material-symbols-outlined star-icon">star</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img class="mt-5 mb-5" width="200" alt="TripAdvisor logo" src="tripadvisor.png">
+      </div>
+      <hr>
+      <div class="d-flex flex-column w-100 justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center ml-5 mr-5 mt-5 mb-5">
+          <p class="subtitle">Наші переваги</p>
+          <h1>Чому саме наш готель</h1>
+        </div>
+        <div class="d-flex justify-content-center align-items-center pb-5">
+          <div class="d-flex flex-row justify-content-center">
+            <div class="d-flex flex-column justify-content-center align-items-center" style="max-width:300px;">
+              <span class="material-symbols-outlined illustration-icon mb-4">location_on</span>
+              <h4 class="text-center">Мальовнича локація</h4>
+              <p class="text-center">З вікон готелю відкривається дивовижний вид на річку та лісовий масив</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center ml-4 mr-4" style="max-width:300px;">
+              <span class="material-symbols-outlined illustration-icon mb-4">bedroom_parent</span>
+              <h4 class="text-center">Широкий вибір номерів</h4>
+              <p class="text-center">Ми пропонуємо багатий вибір номерів – від найдоступніших, до найроскішніших</p>
+            </div>
+            <div class="d-flex flex-column justify-content-center align-items-center" style="max-width:300px;">
+              <span class="material-symbols-outlined illustration-icon mb-4">styler</span>
+              <h4 class="text-center">Різноманітні послуги</h4>
+              <p class="text-center">Кожен гість отримує безкоштовний доступ до Інтернету, сніданок входить у вартість</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <footer class="footer mt-auto py-3">
+        <div class="container">
+          <p class="text-muted text-center">© 2023 Shine Del Sol</p>
+        </div>
+      </footer>
+    </div>
+    <script>
+      function showMore() {
+        const id = 'reviews';
+        const yOffset = -55;
+        const element = document.getElementById(id);
+        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+        window.scrollTo({
+          top: y,
+          behavior: 'smooth'
+        });
+      }
 
-  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-    <ul class="navbar-nav justify-content-center">
-	
-	<li class="nav-item active">
-        <a class="nav-link" href="index.html">Головна<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item ">
-        <a class="nav-link" href="suites.html">Номери</a>
-      </li>
-      <li class="nav-item " >
-        <a class="nav-link" href="contact.html">Контакти</a>
-      </li>
-	  
-    </ul>
-  </div>
-  
-  <a class="" style = "color:white; text-decoration: underline;" href="#">Switch to English</a>
-  
-</nav>
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-
-<div class = "container-fluid h-100" >
-
-<div class="row w-100" style="height:80%; margin-top:55px;">
-
-	
-	
-	<img class = "w-100" alt = "Hotel photo" src="1-lg.jpg" style="object-fit:cover; height: 80%; z-index:2; position:absolute; top:55px;">
-	
-	<div class = "w-100 d-flex flex-column justify-content-between" style=" height: 80%; z-index:3; position:absolute; top:55px;">
-	
-		
-		
-		<div class = "d-flex flex-row justify-content-between pl-5 pr-5 pb-5 pt-5" style="color:white; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);">
-			<div class = "d-flex flex-column">
-			<p class = "subtitle" >Готель</p>
-			<h1 >Shine Del Sol</h1>
-		</div>
-		<div onclick="openVideo()" class = "play-button d-flex justify-content-center align-items-center">
-			<span class="material-symbols-outlined play-icon">play_arrow</span>
-		</div>
-		</div>
-		
-		
-		
-		
-		<h4 class ="pl-5 pr-5 pb-5 pt-5 mb-0" style="color:white; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);">Насолоджуйтеся світлом, що пробивається крізь хмари</h4>
-	</div>
-  </div>
-  
-  <div onclick="showMore()" class="d-flex justify-content-center align-items-center"  style="height: calc(20% - 55px); cursor: grab;">
-	
-	<p style="margin:0px;">Дізнатися більше</p>
-	<span class="material-symbols-outlined">expand_more</span>
-  
-  </div>
-  
-  <hr>
-  
-  <div id = "reviews" class="d-flex flex-column w-100 justify-content-center align-items-center">
-  
-  <div class="d-flex flex-column justify-content-center align-items-center ml-5 mr-5 mt-5 mb-5">
-	<p class = "subtitle" >Відгуки про нас</p>
-	<h1>Що кажуть наші клієнти</h1>
-  </div>
-  
-  
-  <div class="d-flex justify-content-center align-items-center pb-5">
-  
-	<div class="d-flex flex-row justify-content-center" >
-		<div class="d-flex flex-column justify-content-center" style="max-width:300px;">
-			<p class="text-center">«Від ввічливого персоналу до комфортних номерів, готель надає все необхідне для приємного відпочинку»</p>
-			<div class="d-flex justify-content-center">
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-			</div>
-		</div>
-		<div class="d-flex flex-column justify-content-center ml-4 mr-4" style="max-width:300px;">
-			<p class="text-center">«Shine Del Sol – прекрасне місце для відпочинку, яке вражає своєю атмосферою та різноманітністю послуг»</p>
-			<div class="d-flex justify-content-center">
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-			</div>
-		</div>
-		<div class="d-flex flex-column justify-content-center" style="max-width:300px;">
-			<p class="text-center">«Чудовий сервіс, комфортні номери та чистота відразу перенесуть вас у світ відпочинку та задоволення»</p>
-			<div class="d-flex justify-content-center">
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-				<span class="material-symbols-outlined star-icon">star</span>
-			</div>
-		</div>
-	</div>
-  
-  </div>
-  
-  <img class = "mt-5 mb-5" width= "200" alt = "TripAdvisor logo" src="tripadvisor.png">
-  
-  </div>
-  
-  
-  
-  <hr>
-  
-  <div class="d-flex flex-column w-100 justify-content-center align-items-center">
-  
-  <div class="d-flex flex-column justify-content-center align-items-center ml-5 mr-5 mt-5 mb-5">
-	<p class = "subtitle" >Наші переваги</p>
-	<h1>Чому саме наш готель</h1>
-  </div>
-  
-  
-  <div class="d-flex justify-content-center align-items-center pb-5">
-  
-	<div class="d-flex flex-row justify-content-center" >
-		<div class="d-flex flex-column justify-content-center align-items-center" style="max-width:300px;">
-		<span class="material-symbols-outlined illustration-icon mb-4">location_on</span>
-			<h4 class = "text-center">Мальовнича локація</h4>
-			<p class="text-center">З вікон готелю відкривається дивовижний вид на річку та лісовий масив</p>
-		</div>
-		<div class="d-flex flex-column justify-content-center align-items-center ml-4 mr-4" style="max-width:300px;">
-			<span class="material-symbols-outlined illustration-icon mb-4">bedroom_parent</span>
-			<h4 class = "text-center">Широкий вибір номерів</h4>
-			<p class="text-center">Ми пропонуємо багатий вибір номерів – від найдоступніших, до найроскішніших</p>
-		</div>
-		<div class="d-flex flex-column justify-content-center align-items-center" style="max-width:300px;">
-		<span class="material-symbols-outlined illustration-icon mb-4">styler</span>
-		<h4 class = "text-center">Різноманітні послуги</h4>
-			<p class="text-center">Кожен гість отримує безкоштовний доступ до Інтернету, сніданок входить у вартість</p>
-		</div>
-	</div>
-  
-  </div>
-  
-  </div>
-  
-   <hr>
-  
-  <footer class="footer mt-auto py-3">
-  <div class="container">
-    <p class="text-muted text-center">© 2023 Shine Del Sol</p>
-  </div>
-</footer>
-
-  
-</div>
-
-
-	<script>
-		function showMore(){
-			const id = 'reviews';
-const yOffset = -55; 
-const element = document.getElementById(id);
-const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-
-window.scrollTo({top: y, behavior: 'smooth'});
-		}
-		
-		function openVideo() {
-  window.open("https://www.youtube.com/watch?v=PjUmEhytjos&pp=ygUGbmF0dXJl");
-}
-	</script>
+      function openVideo() {
+        window.open("https://www.youtube.com/watch?v=PjUmEhytjos&pp=ygUGbmF0dXJl");
+      }
+    </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
- 
 </html>
