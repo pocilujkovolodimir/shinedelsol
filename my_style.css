@@ -1,0 +1,106 @@
+.list-with-checkmarks {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 1.3em;
+}
+
+.list-with-checkmarks li::before {
+  content: "✓";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.3em;
+}
+
+.list-of-payment-options {
+  list-style: none;
+  margin-left: 0;
+  text-align: right;
+}
+
+.list-of-phone-numbers {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  text-align: left;
+}
+
+.gallery {
+display: flex;
+height: 15rem;
+gap: 1rem
+}
+.gallery > div {
+flex: 1;
+background-position: center;
+background-repeat: no-repeat;
+background-size: auto 100%;
+transition: all .3s ease-in-out;
+}
+
+.gallery > div:hover {
+flex: 3;
+}
+
+.payment_option {
+	margin-bottom: 10px;
+	opacity: 0.7;
+}
+#map-container {
+    height: 100px;
+    width: 100%;
+}
+@media (min-width: 992px){
+	#map-container {
+    height: 150px;
+    width: 100%;
+}
+
+.cta-button{
+	font-size: 1em;
+}
+}
+
+@media (min-width: 1200px){
+#map-container {
+    height: 250px;
+    width: 100%;
+}
+.cta-button{
+	font-size: 1.3em;
+}
+}
+
+
+			  
+.star-icon{
+	color: #cc7722;
+	font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 20;
+}
+
+.illustration-icon{
+	color: black;
+	opacity: 0.6;
+	font-size: 48px;
+	font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+}
+
+.play-icon{
+	color: black;
+	opacity: 0.6;
+	font-size: 36px;
+	font-variation-settings: 'FILL' 1, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.subtitle{
+	text-transform: uppercase;
+	opacity: 0.7;
+}
+
+.play-button{
+	height: 64px;
+	width: 64px;
+	border-radius: 32px;
+	background-color: white;
+	box-shadow: 0px 3px 15px black;
+	cursor: grab;
+}
