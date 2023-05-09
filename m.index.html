@@ -9,14 +9,7 @@
     <meta name="keywords" content="Готель, Забронювати номер, Львів">
     <meta name="author" content="Andrey Lapaev, Volodymyr Potsiluyko">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <!-- Bootstrap CSS -->
-	<script src="redirection-mobile.js"></script>
-	<script>
-		SA.redirection_mobile ({
-		mobile_url : "pocilujkovolodimir.github.io/shinedelsol/m.index.html",
-		mobile_prefix : "https"
-	});
-	</script>
+   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" type="text/css" href="my_style.css">
@@ -45,66 +38,53 @@
       <a class="" style="color:white; text-decoration: underline;" href="#">Switch to English</a>
     </nav>
     <div class="container-fluid h-100">
-      <div class="row w-100" style="height:80%; margin-top:55px;">
-        <img class="w-100" alt="Hotel photo" src="1-lg.jpg" style="object-fit:cover; height: 80%; z-index:2; position:absolute; top:55px;">
-        <div class="w-100 d-flex flex-column justify-content-between" style=" height: 80%; z-index:3; position:absolute; top:55px;">
-          <div class="d-flex flex-row justify-content-between pl-5 pr-5 pb-5 pt-5" style="color:white; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);">
-            <div class="d-flex flex-column">
-              <p class="subtitle">Готель</p>
-              <h1>Shine Del Sol</h1>
-            </div>
-            <div onclick="openVideo()" class="play-button d-flex justify-content-center align-items-center">
-              <span class="material-symbols-outlined play-icon">play_arrow</span>
-            </div>
-          </div>
-          <h4 class="pl-5 pr-5 pb-5 pt-5 mb-0" style="color:white; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);">Насолоджуйтеся світлом, що пробивається крізь хмари</h4>
-        </div>
-      </div>
-      <div onclick="showMore()" class="d-flex justify-content-center align-items-center" style="height: calc(20% - 55px); cursor: grab;">
-        <p style="margin:0px;">Дізнатися більше</p>
-        <span class="material-symbols-outlined">expand_more</span>
-      </div>
-      <hr>
-      <div id="reviews" class="d-flex flex-column w-100 justify-content-center align-items-center">
+      
+      <div id="reviews" class="d-flex flex-column w-100 justify-content-center align-items-center" style="margin-top: 55px;">
         <div class="d-flex flex-column justify-content-center align-items-center ml-5 mr-5 mt-5 mb-5">
           <p class="subtitle">Відгуки про нас</p>
-          <h1>Що кажуть наші клієнти</h1>
+          <h1 class = "text-center">Що кажуть наші клієнти</h1>
         </div>
-        <div class="d-flex justify-content-center align-items-center pb-5">
-          <div class="d-flex flex-row justify-content-center">
-            <div class="d-flex flex-column justify-content-center" style="max-width:300px;">
-              <p class="text-center">«Від ввічливого персоналу до комфортних номерів, готель надає все необхідне для приємного відпочинку»</p>
-              <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-start align-items-center pb-5 pl-5 pr-5 w-100">
+          <div class="d-flex flex-column justify-content-center w-100">
+            <div class="d-flex flex-column justify-content-start">
+             
+              <div class="d-flex justify-content-start mb-2">
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
               </div>
+			   <p class="text-justify">«Від ввічливого персоналу до комфортних номерів, готель надає все необхідне для приємного відпочинку»</p>
+			   
             </div>
-            <div class="d-flex flex-column justify-content-center ml-4 mr-4" style="max-width:300px;">
-              <p class="text-center">«Shine Del Sol – прекрасне місце для відпочинку, яке вражає своєю атмосферою та різноманітністю послуг»</p>
-              <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column justify-content-start mt-4 mb-4">
+              
+              <div class="d-flex justify-content-start mb-2">
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
               </div>
+			  <p class="text-justify">«Shine Del Sol – прекрасне місце для відпочинку, яке вражає своєю атмосферою та різноманітністю послуг»</p>
+			  
             </div>
-            <div class="d-flex flex-column justify-content-center" style="max-width:300px;">
-              <p class="text-center">«Чудовий сервіс, комфортні номери та чистота відразу перенесуть вас у світ відпочинку та задоволення»</p>
-              <div class="d-flex justify-content-center">
+            <div class="d-flex flex-column justify-content-start">
+              
+              <div class="d-flex justify-content-start mb-2">
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
                 <span class="material-symbols-outlined star-icon">star</span>
               </div>
+			  <p class="text-justify">«Чудовий сервіс, комфортні номери та чистота відразу перенесуть вас у світ відпочинку та задоволення»</p>
+			  
             </div>
           </div>
         </div>
-        <img class="mt-5 mb-5" width="200" alt="TripAdvisor logo" src="tripadvisor.png">
+        <img class="mb-5" width="150" alt="TripAdvisor logo" src="tripadvisor.png">
       </div>
       <hr>
       <div class="d-flex flex-column w-100 justify-content-center align-items-center">
