@@ -47,7 +47,7 @@
 		
 		<div class="d-flex flex-column w-100 justify-content-center align-items-center  pl-5 pr-5 pt-5 pb-5" style=" margin:0; color:white; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);">
 
-		  <button type="button" class="btn btn-light btn-block btn-lg mt-3">Переглянути номери</button>
+		  <button type="button" onclick="showSuites()" class="btn btn-light btn-block btn-lg mt-3">Переглянути номери</button>
         </div>
 	   </div>
 	  
@@ -139,20 +139,10 @@
       </footer>
     </div>
     <script>
-      function showMore() {
-        const id = 'reviews';
-        const yOffset = -55;
-        const element = document.getElementById(id);
-        const y = element.getBoundingClientRect().top + window.pageYOffset + yOffset;
-        window.scrollTo({
-          top: y,
-          behavior: 'smooth'
-        });
-      }
-
-      function openVideo() {
-        window.open("https://www.youtube.com/watch?v=PjUmEhytjos&pp=ygUGbmF0dXJl");
-      }
+		function showSuites() {
+			window.location = "https://pocilujkovolodimir.github.io/shinedelsol/m.suites.html"
+		}
+	
     </script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
