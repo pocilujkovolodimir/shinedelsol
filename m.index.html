@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="uk" class="h-100">
+<html lang="uk">
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,9 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
     <link rel="stylesheet" type="text/css" href="my_style.css">
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/sticky-footer/">
   </head>
-  <body class="h-100">
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Shine Del Sol</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,17 +34,31 @@
           </li>
         </ul>
       </div>
-      <a class="" style="color:white; text-decoration: underline;" href="#">Switch to English</a>
     </nav>
-    <div class="container-fluid h-100">
+    <div class="container-fluid">
       
-      <div id="reviews" class="d-flex flex-column w-100 justify-content-center align-items-center" style="margin-top: 55px;">
-        <div class="d-flex flex-column justify-content-center align-items-center ml-5 mr-5 mt-5 mb-5">
+	  <div class = "row"> 
+	  
+	  <div class="col-12 d-flex flex-column  justify-content-between align-items-end" style="height: 500px; background-image: url('5-lg.jpg'); margin-top: 55px; padding: 0; background-cover: cover; background-position: bottom;">
+         <div class="d-flex flex-column w-100 justify-content-center align-items-center  pl-5 pr-5 pb-5 pt-5" style=" margin:0; color:white; background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);">
+          <p class="subtitle">Готель</p>
+          <h1 class = "text-center">Shine Del Sol</h1>
+        </div>
+		
+		<div class="d-flex flex-column w-100 justify-content-center align-items-center  pl-5 pr-5 pt-5 pb-5" style=" margin:0; color:white; background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);">
+
+		  <button type="button" class="btn btn-light btn-block btn-lg mt-3">Переглянути номери</button>
+        </div>
+	   </div>
+	  
+      <div id="reviews" class=" col-12 d-flex flex-column justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center pl-5 pr-5 pt-5 pb-5">
           <p class="subtitle">Відгуки про нас</p>
           <h1 class = "text-center">Що кажуть наші клієнти</h1>
         </div>
-        <div class="d-flex justify-content-start align-items-center pb-5 pl-5 pr-5 w-100">
-          <div class="d-flex flex-column justify-content-center w-100">
+		
+        <div class="d-flex justify-content-start align-items-center pb-5 pl-3 pr-3">
+          <div class="d-flex flex-column justify-content-center">
             <div class="d-flex flex-column justify-content-start">
              
               <div class="d-flex justify-content-start mb-2">
@@ -86,25 +99,27 @@
         </div>
         <img class="mb-5" width="150" alt="TripAdvisor logo" src="tripadvisor.png">
       </div>
-      <hr>
-      <div class="d-flex flex-column w-100 justify-content-center align-items-center">
-        <div class="d-flex flex-column justify-content-center align-items-center ml-5 mr-5 mt-5 mb-5">
+	  
+	  <div class="border-top w-100"></div>
+	  
+	  <div class="col-12 d-flex flex-column  justify-content-center align-items-center">
+        <div class="d-flex flex-column justify-content-center align-items-center  pl-5 pr-5 pt-5 pb-5">
           <p class="subtitle">Наші переваги</p>
-          <h1>Чому саме наш готель</h1>
+          <h1 class = "text-center">Чому саме наш готель</h1>
         </div>
-        <div class="d-flex justify-content-center align-items-center pb-5">
-          <div class="d-flex flex-row justify-content-center">
-            <div class="d-flex flex-column justify-content-center align-items-center" style="max-width:300px;">
+        <div class="d-flex flex-column justify-content-center align-items-center pb-5  ml-3 mr-3">
+          <div class="d-flex flex-column justify-content-center">
+            <div class="d-flex flex-column justify-content-center align-items-center mr-3 ml-3">
               <span class="material-symbols-outlined illustration-icon mb-4">location_on</span>
               <h4 class="text-center">Мальовнича локація</h4>
               <p class="text-center">З вікон готелю відкривається дивовижний вид на річку та лісовий масив</p>
             </div>
-            <div class="d-flex flex-column justify-content-center align-items-center ml-4 mr-4" style="max-width:300px;">
+            <div class="d-flex flex-column justify-content-center align-items-center mr-3 ml-3 mt-3 mb-3">
               <span class="material-symbols-outlined illustration-icon mb-4">bedroom_parent</span>
               <h4 class="text-center">Широкий вибір номерів</h4>
               <p class="text-center">Ми пропонуємо багатий вибір номерів – від найдоступніших, до найроскішніших</p>
             </div>
-            <div class="d-flex flex-column justify-content-center align-items-center" style="max-width:300px;">
+            <div class="d-flex flex-column justify-content-center align-items-center mr-3 ml-3">
               <span class="material-symbols-outlined illustration-icon mb-4">styler</span>
               <h4 class="text-center">Різноманітні послуги</h4>
               <p class="text-center">Кожен гість отримує безкоштовний доступ до Інтернету, сніданок входить у вартість</p>
@@ -112,7 +127,8 @@
           </div>
         </div>
       </div>
-      <hr>
+      
+      </div>
       <footer class="footer mt-auto py-3">
         <div class="container">
           <p class="text-muted text-center">© 2023 Shine Del Sol</p>
